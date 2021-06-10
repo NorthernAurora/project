@@ -1,0 +1,43 @@
+{
+"permission": {
+  "scope.userLocation": {
+    "desc": "请授权以享受服务"
+  }
+},
+
+  "pages": [
+    "pages/index/index",
+    "pages/routes/routes",
+    "pages/info/info",
+    "pages/weather/weather",
+    "pages/inputtip/inputtip"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#11c07d",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#11c07d",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "地图",
+        "iconPath": "/images/map2.png",
+        "selectedIconPath": "/images/map1.png"
+      },
+      {
+        "pagePath": "pages/weather/weather",
+        "text": "天气",
+        "iconPath": "/images/weather2.png",
+        "selectedIconPath": "/images/weather1.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 15000
+  },
+  "sitemapLocation": "sitemap.json"
+}
